@@ -1,4 +1,4 @@
-VENDOR_VERSION ?= latest
+VENDOR_VERSION ?= 2.0.18
 REGISTRY ?= docker.io
 ifeq ($(BUILD_VERSION),)
 	BUILD_VERSION := $(shell git describe --tags `git rev-list --tags --max-count=1`)
